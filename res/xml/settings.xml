@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="login" android:title="@string/AcSettings_sipnet_login" android:summary="@string/AcSettings_sipnet_login_summary"></EditTextPreference>
+    <EditTextPreference android:key="password" android:title="@string/AcSettings_sipnet_password" android:summary="@string/AcSettings_sipnet_password_summary"></EditTextPreference>
+    <EditTextPreference android:key="callback_number" android:title="@string/AcSettings_callback_number" android:summary="@string/AcSettings_callback_number_summary"></EditTextPreference>
+    <Preference android:title="@string/AcSettings_clearcalls" android:key="clearcalls" android:summary="@string/AcSettings_clearcalls_summary"></Preference>
+</PreferenceScreen>

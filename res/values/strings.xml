@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Sipnet Callback</string>
+	<string name="AcMain_ContactName">Имя абонента</string>
+	<string name="AcMain_btConnect">Заказать звонок</string>
+	<string name="AcMain_Last10Calls">Последние 10 вызовов:</string>
+	<string name="AcMain_btOpenContacts">Открыть контакты телефона</string>
+	<string name="AcMain_menu_settings_title">Настройки</string>
+	<string name="AcMain_menu_about_title">О программе</string>
+	<string name="AcMain_ContactNumberTitle">Номер абонента:</string>
+	<string name="AcMain_EmptyCallList">Список вызовов пуст.</string>
+	<string name="AcMain_NumberNotFound">У выбранного контакта нет номеров.</string>
+	<string name="AcMain_ChooseNumber">Выберите номер</string>
+	<string name="AcSettings_sipnet_login">Sipnet имя</string>
+	<string name="AcSettings_sipnet_login_summary">Логин учетной записи sipnet.ru</string>
+	<string name="AcSettings_sipnet_password">Sipnet пароль</string>
+	<string name="AcSettings_sipnet_password_summary">Пароль учетной записи sipnet.ru</string>
+	<string name="AcSettings_callback_number">Callback номер</string>
+	<string name="AcSettings_callback_number_summary">В международном формате, для России 7хххххххххх</string>
+	<string name="AcSettings_clearcalls">Очистить вызовы</string>
+	<string name="AcSettings_clearcalls_summary">Список последних 10 вызовов будет очищен</string>
+	<string name="AcAbout_AboutText">Программа с открытым исходным кодом. Предназначена для совершения обратных вызовов(callback) с помощью сервиса sipnet.ru\n\nДля первоначальной настройки необходимо указать ваш логин и пароль для сервиса sipnet, а так же так называемый Callback номер, который обычно является номером вашего мобильного телефона.\n\nАвтор не имеет отношения с сервису sipnet кроме того, что сам является его клиентом.\n\nИсходный код: https://github.com/khmelev/Sipnet-Callback</string>
+	<string name="Dialog_MakeCallFail_Title">Звонок не может быть заказан!</string>
+	<string name="Dialog_LoginOrPassNotSet">Логин или Пароль не установлены в настройках.</string>
+	<string name="Dialog_CallbackNumberNotSet">Callback номер не установлен в настройках или не соответствует формату.</string>
+	<string name="Dialog_ContactNumberNotSet">Вызываемый номер слишком короткий или имеет неправильный формат.</string>
+	<string name="Dialog_AutentificationFailure">Аутентификация не пройдена.</string>
+	<string name="Dialog_AutentificationAccept">Аутентификация пройдена</string>
+	<string name="Dialog_AutentificationFailureMsg">Аутентификация на сайте не пройдена. Проверьте логин и пароль в настройках.</string>
+	<string name="Dialog_Autentificating">Аутентификация...</string>
+	<string name="Dialog_Calling">Заказ звонка...</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1" android:layout_width="match_parent"
+		android:paddingLeft="10dip" android:paddingRight="10dip">
+		<TextView android:id="@+id/AcMain_ContactNumberTitle"
+			android:layout_height="wrap_content" android:text="@string/AcMain_ContactNumberTitle"
+			android:gravity="center" android:layout_width="wrap_content"></TextView>
+		<TextView android:id="@+id/AcMain_ContactName"
+			android:layout_height="wrap_content" android:text=""
+			android:textStyle="bold" android:layout_width="wrap_content"
+			android:layout_marginLeft="5dip"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2" android:layout_width="match_parent"
+		android:layout_marginLeft="5dip">
+		<EditText android:id="@+id/AcMain_ContactNumber"
+			android:text="EditText" android:layout_height="wrap_content"
+			android:phoneNumber="true" android:layout_width="300dip"></EditText>
+		<Button android:text="@string/AcMain_btConnect"
+			android:id="@+id/AcMain_btConnect"
+			android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+	</LinearLayout>
+	<TextView android:layout_height="wrap_content" android:id="@+id/AcMain_Last10Calls"
+		android:text="@string/AcMain_Last10Calls" android:gravity="center"
+		android:layout_width="match_parent"></TextView>
+	<RelativeLayout android:id="@+id/relativeLayout1"
+		android:layout_width="match_parent" android:layout_height="match_parent">
+		<ListView android:id="@+id/android:list"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:layout_marginBottom="50dip"></ListView>
+		<TextView android:id="@+id/android:empty" android:text="@string/AcMain_EmptyCallList"
+			android:layout_height="wrap_content" android:gravity="center"
+			android:layout_width="match_parent"></TextView>
+		<Button android:id="@+id/AcMain_btOpenContacts" android:text="@string/AcMain_btOpenContacts"
+			android:layout_height="wrap_content" android:layout_width="match_parent"
+			android:layout_alignParentBottom="true"></Button>
+	</RelativeLayout>
+</LinearLayout>
